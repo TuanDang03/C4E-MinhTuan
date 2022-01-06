@@ -11,3 +11,9 @@ alert(" Số kí tự là : "+ text.length);
 //Bai2
 let word = "Hello world!"
 console.log(word.replace(`world`, `Tuan`));
+
+let str = "Tiger, Panther, Lion";
+console.log(str.slice(6, 14));
+
+let fruit = "Apple, Banana, Strawberry";
+console.log(fruit.substr(-10));
