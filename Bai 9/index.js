@@ -94,7 +94,7 @@ let sum = 0
 for (let i = 0; i < arr4.length; i++) {
     sum += arr4[i];
 }
-console.log("Trung bình cộng :",sum/arr3.length);
+console.log("Trung bình cộng :",sum/arr4.length);
 
 // Tính tổng các số chẵn có trong mảng:
 let sum2 = 0
