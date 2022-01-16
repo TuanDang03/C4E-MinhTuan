@@ -1,0 +1,149 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  
+}
+form{
+  height: 620px;
+  background: url('https://us.123rf.com/450wm/antstang/antstang2009/antstang200900038/154744289-.jpg?ver=6');
+  background-size: 100% 100%;
+}
+div.background {
+}
+
+.id{
+  position: relative;
+  top: 77px;
+  left: 610px;
+  height: 43px;
+  width: 25%;
+  font-size: 20px;
+}
+.matkhau{
+  position: relative;
+  top: 72px;
+  left: 610px;
+  height: 43px;
+  width: 25%;
+  font-size: 20px;
+}
+.id1{
+  position: relative;
+  top: 120px;
+  left: 565px;
+  font-size: 22px;
+  margin-right: 1226px;
+  padding-left: 5px;
+  height: 43px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  box-sizing: border-box;
+  background: white;
+  width: 5%;
+  box-shadow: 1px 2px DarkGrey;
+}
+.iconimg{
+height: 30px;
+  position: relative;
+  left: 7px;
+  top: 3px;
+}
+.matkhau1{
+  position: relative;
+  top: 115px;
+  left: 565px;
+  font-size: 22px;
+  margin-right: 1256px;
+  padding-left: 5px;
+  height: 43px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  box-sizing: border-box;
+  background: white;
+  width: 5%;
+  box-shadow: 1px 2px DarkGrey;
+}
+.passimg{
+height: 30px;
+  position: relative;
+  left: 7px;
+  top: 3px;
+}
+.nut1{
+position: relative;
+  top: 115px;
+  left: 650px;
+  font-size: 23px;
+  padding-left: 10px;
+  padding-right: 10px;
+   padding-top:10px;
+   padding-bottom:10px;
+  width: 15%;
+  font-weight: bold;
+  
+}
+.nut1:hover {
+background: aqua;
+color: Crimson
+}
+.nut2{
+  position: relative;
+  top: 115px;
+  left: 650px;
+  font-size: 22px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top:5px;
+   padding-bottom:5px;
+  
+  
+}
+.loi{
+position: relative;
+  top: 100px;
+  left: 650px;
+  font-size: 22px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: bold;
+}
+.dung{
+position: relative;
+  top: 100px;
+  left: 650px;
+  font-size: 22px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.img{
+  height: 200px;
+  position: relative;
+  left: 660px;
+  top: 60px;
+  border-radius: 100%;
+}
+input {
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-left-color: white;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-sizing: border-box;
+  padding: 12px;
+  box-shadow: 1px 2px DarkGrey;
+}
+button{
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  box-sizing: border-box;
+  background: aqua;
+}
+input:focus{
+    outline: none;
+}
