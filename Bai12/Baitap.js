@@ -15,7 +15,7 @@ function verify(){
     return false
   }
     if(matkhau.length<8){
-    document.getElementById("error").innerHTML = "Mật khẩu sai"
+    document.getElementById("error").innerHTML = "Mật khẩu phải ít nhất 8 kí tự"
     document.getElementById("error").style.color = "red";
     return false
   }
