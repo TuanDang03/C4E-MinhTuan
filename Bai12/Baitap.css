@@ -104,16 +104,16 @@ color: Crimson
   
 }
 .loi{
-position: relative;
-  top: 100px;
-  left: 650px;
+  position: relative;
+  top: 95px;
+  text-align: center;
   font-size: 22px;
   padding-left: 10px;
   padding-right: 10px;
   font-weight: bold;
 }
 .dung{
-position: relative;
+  position: relative;
   top: 100px;
   left: 650px;
   font-size: 22px;
