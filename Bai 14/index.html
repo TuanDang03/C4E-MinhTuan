@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link media="(max-width:700px)" rel="stylesheet" href="index.css">
+    <style>
+        img{
+            width: 100%
+        }
+        div{
+            background-color: red;
+        }
+        .container{
+            display: flex;
+        }
+        @media only screen and (min-width: 700px){
+            div{
+                background-color: yellow;
+            }
+            .container{
+                flex-direction: column;
+            }
+            img{
+                display: none;
+            }
+        }
+        @media only screen and (min-width: 900px){
+            div{
+                background-color: cyan;
+            }
+        }
+    </style>
+</head>
+<body>
+    <img src="https://cdnmedia.webthethao.vn/uploads/2021-09-07/vex.jpg">
+    <p>Chào mừng các bạn đã đến với chuyên mục hướng dẫn chơi của 20GG. Các gợi ý chơi sẽ được cập nhật, tham khảo, tổng hợp từ nhiều nguồn theo Meta mới.
+        Những gợi ý chơi từ trang được xây dựng theo lối đánh team và cơ bản nhất. Một khi đã thành thạo và làm chủ được lối chơi cũng như kỹ năng của mình các bạn có thể thay đổi để phù hợp với lối chơi của bản thân.
+    </p>
+    <div class="container">
+        <div>1</div>
+        <div>2</div>
+    </div>
+</body>
+</html>
