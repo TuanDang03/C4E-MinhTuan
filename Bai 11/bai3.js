@@ -8,7 +8,6 @@ nut1.onclick = () =>{
    listgiatri.innerHTML = nhap.value
    them.appendChild(listgiatri)
 }
-nut2.onclick = () =>{
-   let them = document.querySelector("#them");                           
+nut2.onclick = () =>{                        
    them.removeChild(them.lastElementChild)
 }
