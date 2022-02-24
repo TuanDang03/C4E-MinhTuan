@@ -1,0 +1,58 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Firts{
+    background-color: brown;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.Second{
+    background-color: rgb(4, 250, 238);
+    color: black;
+    font-size: 16px;
+    text-align: center;
+}
+.word{
+    padding-top: 20px;
+    padding-bottom: 45px;
+}
+input{
+    font-size: 20px;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 3px;
+    border: 1px solid grey;
+    position: relative;
+    bottom: 20px;
+}
+input:focus{
+    outline: none;
+}
+button{
+    background-color: rgb(0, 252, 76);
+    border: 1px solid grey;
+    font-size: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 3px;
+    position: relative;
+    bottom: 20px;
+    font-weight: bold;
+}
+ul{
+    list-style-type: none;
+}
+#announce{
+    color: white;
+    font-size: 20px;
+    padding-bottom: 2%;
+}
